@@ -19,6 +19,11 @@ We analyze data from the Pierre Auger Observatory to identify which atmospheric 
 
 Tex file and pdf copy of final paper writen for this project as well as a pdf copy of the final presentation given on this project.
 
+
+### [Final Presentation](./presentation)
+
+Copy of the final presentation given on this project.
+
 ### [Data](./data)
 
 All data sets needed to run the included Notebooks. Data is taken from the [Pierre Auger Observatory Open Data release](https://doi.org/10.5281/zenodo.10488964) or generated using the [data preprocessing notebook](./src/data_preprocessing.ipynb).
