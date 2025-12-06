@@ -1,0 +1,35 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  UNC-MLPhysAstr Final Project: ML Cosmic Ray Flux
+  Reconstruction
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Andrei
+    family-names: Gogosha
+    orcid: 'https://orcid.org/0009-0007-5037-996X'
+  - given-names: Carter
+    family-names: Chapman
+    orcid: 'https://orcid.org/0009-0000-9104-8795'
+repository-code: 'https://github.com/AGogosha/MLPhysAstr-CosRay-ReFlux'
+abstract: >-
+  We analyze data from the Pierre Auger Observatory to
+  identify which atmospheric variables most affect
+  cosmic-ray count rates. Using several years of
+  temperature, pressure, and air density measurements, we
+  train a linear \texttt{SGDRegressor} and a nonlinear
+  \texttt{HistGradient Boosting Regressor}, optimized via
+  cross-validation. The \texttt{SGDRegressor} achieves
+  \(\mathbf{7.87 \pm 0.01}\) MAE, while the gradient
+  boosting model improves accuracy to \(\mathbf{6.59 \pm
+  0.03}\) MAE. SHAP-based feature importance reveals the
+  dominant atmospheric drivers. Our results demonstrate that
+  machine-learning methods, particularly gradient boosting,
+  effectively model the atmospheric modulation of cosmic-ray
+  flux.
+license: BSD-3-Clause

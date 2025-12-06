@@ -11,6 +11,8 @@ The University of North Carolina at Chapel Hill
 
 ## Project Description
 
+We analyze data from the Pierre Auger Observatory to identify which atmospheric variables most affect cosmic-ray count rates. Using several years of temperature, pressure, and air density measurements, we train a linear $\texttt{SGDRegressor}$ and a nonlinear $\texttt{HistGradient Boosting Regressor}$, optimized via cross-validation. The $\texttt{SGDRegressor}$ achieves $\mathbf{7.87 \pm 0.01}$ MAE, while the gradient boosting model improves accuracy to $\mathbf{6.59 \pm 0.03}$ MAE. SHAP-based feature importance reveals the dominant atmospheric drivers. Our results demonstrate that machine-learning methods, particularly gradient boosting, effectively model the atmospheric modulation of cosmic-ray flux.
+
 ## A summary of the repository contents:
 
 ### [Final Paper](./paper)
