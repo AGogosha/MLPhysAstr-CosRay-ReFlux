@@ -1,0 +1,34 @@
+\documentclass{article}
+
+% ------------------- PACKAGES -------------------
+\usepackage[margin=1in]{geometry}   % reasonable margins
+\usepackage[mathlines]{lineno}%
+\usepackage{
+            setspace,   % spacing control
+            titlesec,   % formatting section headers
+            graphicx,   % for figures if needed
+            hyperref,   % for hyperlinks
+            parskip,    % spacing between paragraphs
+            amsmath, 
+            amssymb, 
+            mathtools,
+            siunitx,
+            bm,
+            tabularx,
+            subcaption,
+            % svg
+             }
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `basename #1 .tif`.png}
+\usepackage[
+backend=biber,
+]{biblatex}
+\addbibresource{bibliography.bib}
+% ------------------- FORMATTING -------------------
+\setstretch{1.15}                   % line spacing
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{} % section formatting
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{} % subsection formatting
+
+% ------------------- TITLE INFO -------------------
+\title{\vspace{-1cm}Cosmic Ray Flux Reconstruction using Machine Learning}
+\author{Carter Chapman, Andrei Gogosha \\ Phys/Astr 448}
+\date{\today}
